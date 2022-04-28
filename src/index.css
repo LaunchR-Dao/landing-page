@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -12,11 +14,55 @@ a{
   text-decoration: none;
 }
 
+.btn{
+  padding: 15px 32px;
+  background-color: #145DA0;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+#btn2{
+  padding: 15px 32px;
+ background-color: #3C9CD6;
+  color: #fff;
+  margin: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  color: #145DA0;
+}
+
+p{
+ color: #3C9CD6;
+}
+
 .container{
-  max-width: 1240px;
+  max-width: 1000px;
   margin: auto;
 }
 
+
+body{
+ margin: 0;
+ /* background-color:#AFEEEE; */
+}
+
+@media screen and (max-width: 760px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  #btn2{
+    margin: 10px 0;
+  }
+}
 
 
 
