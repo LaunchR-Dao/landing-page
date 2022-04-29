@@ -41,17 +41,19 @@ h1 {
 
 p{
  color: #3C9CD6;
+ font-weight: bold;
 }
 
 .container{
   max-width: 1000px;
   margin: auto;
+  
 }
 
 
 body{
  margin: 0;
- /* background-color:#AFEEEE; */
+ 
 }
 
 @media screen and (max-width: 760px) {

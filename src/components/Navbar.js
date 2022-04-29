@@ -1,13 +1,36 @@
 import React from "react";
+import { useState } from "react";
 import "./Navbar.css";
-import logo from '../assets/2.png'
+import logo from "../assets/youfundr6.png";
 
 const Navbar = () => {
+
+  const[walletAddy, setWalletAddy] = useState('')
+
+  async function requestAccounts(e) {
+    e.preventDefault();
+    console.log("request...");
+
+    if (window.ethereum) {
+      console.log("detected");
+      try {
+        const accounts = await window.ethereum.request({
+          method: "eth_requestAccounts",
+        });
+        setWalletAddy(accounts[0].substring(0, 6));
+      } catch (error) {
+        console.log("error connecting");
+      }
+    } else {
+      console.log("metamask isnt here");
+    }
+  }
+
   return (
     <div className="div-container">
       <nav class="navbar navbar-expand-lg navbar-light ">
         <a class="navbar-brand" href="#">
-        <img src={logo} alt="./assets/2.png" height="100px" />
+          <img src={logo} alt="./assets/2.png" height="100px" />
         </a>
         <button
           class="navbar-toggler"
@@ -35,8 +58,13 @@ const Navbar = () => {
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-outline-primary btn-info my-2 my-sm-0" type="submit" id="nav-button">
-              Connect
+            <button
+              onClick={requestAccounts}
+              class="btn btn-outline-primary btn-info my-2 my-sm-0"
+              type="submit"
+              id="nav-button"
+            >
+              connect: {walletAddy}
             </button>
           </form>
         </div>
