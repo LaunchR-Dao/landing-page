@@ -1,0 +1,26 @@
+.div-container{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #145DA0;
+}
+
+#nav-item1{
+    color: #145DA0;
+}
+#nav-item2{
+    color: #3C9CD6;
+}
+
+#nav-button{
+    margin-left: 0;
+}
+
+
+@media screen and (max-width: 760px) {
+  
+    #nav-button{
+        margin: 0;
+    }
+  }

@@ -1,13 +1,71 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul{
+  list-style: none;
 }
+
+a{
+  text-decoration: none;
+}
+
+.btn{
+  padding: 15px 32px;
+  background-color: #145DA0;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+#btn2{
+  padding: 15px 32px;
+ background-color: #3C9CD6;
+  color: #fff;
+  margin: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  color: #145DA0;
+}
+
+p{
+ color: #3C9CD6;
+ font-weight: bold;
+}
+
+.container{
+  max-width: 1000px;
+  margin: auto;
+  
+}
+
+
+body{
+ margin: 0;
+ 
+}
+
+@media screen and (max-width: 760px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  #btn2{
+    margin: 10px 0;
+  }
+}
+
+
+
+
