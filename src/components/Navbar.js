@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import "./Navbar.css";
 import logo from "../assets/youfundr6.png";
-import navLogo from "../assets/2.png"
 
 const Navbar = () => {
 
@@ -31,7 +30,7 @@ const Navbar = () => {
     <div className="div-container">
       <nav class="navbar navbar-expand-lg navbar-light ">
         <a class="navbar-brand" href="#">
-          <img src={navLogo} alt="./assets/2.png" height="110px" />
+          <img src={logo} alt="./assets/2.png" height="100px" />
         </a>
         <button
           class="navbar-toggler"

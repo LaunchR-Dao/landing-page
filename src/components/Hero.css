@@ -20,13 +20,6 @@
     font-weight: bold;
 }
 
- .first-half .btn{
-    margin-left: 0;
-}
- .first-half #btn2{
-    margin-left: 0;
-}
-
 .hero .image{
     width: 100%;
     display: flex;
@@ -43,5 +36,4 @@
         grid-template-columns: 1fr;
         margin: 1rem 0;
     }
-   
 }
