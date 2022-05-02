@@ -21,6 +21,8 @@ a{
   font-size: 1rem;
   font-weight: 400;
   cursor: pointer;
+  margin-right: 10px;
+  width: 200px;
 }
 #btn2{
   padding: 15px 32px;
