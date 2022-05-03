@@ -1,0 +1,12 @@
+.footer__logo-container,
+.footer__copyright-container,
+.footer__twitter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32%;
+}
+
+.footer__logo {
+  height: 50px;
+}
