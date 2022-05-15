@@ -1,26 +1,19 @@
-.div-container{
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    color: #145DA0;
+.navigation {
+  margin: 0 50px 0 auto;
+  height: 100%;
+  width: 500px;
 }
 
-#nav-item1{
-    color: #145DA0;
-}
-#nav-item2{
-    color: #3C9CD6;
+.navigation__list {
+  width: 100%;
+  justify-content: space-between;
 }
 
-#nav-button{
-    margin-left: 0;
+.navigation__list-item {
 }
 
-
-@media screen and (max-width: 760px) {
-  
-    #nav-button{
-        margin: 0;
-    }
-  }
+.navigation__list-item-anchor {
+  font-weight: bold;
+  color: #145da0 !important;
+  font-size: 20px;
+}
