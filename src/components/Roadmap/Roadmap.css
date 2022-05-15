@@ -1,0 +1,73 @@
+.roadmap {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.roadmap__title {
+  margin-bottom: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.roadmap__item {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.roadmap__item-hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.roadmap__item-hero {
+  max-width: 92%;
+  max-height: 237px;
+}
+
+.roadmap__item-content {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 80%;
+  padding: 20px;
+}
+
+.roadmap__item-title {
+  color: #145da0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.roadmap__item-copy {
+  text-align: center;
+  color: #3c9cd6;
+}
+
+@media screen and (min-width: 601px) {
+  .roadmap__title {
+    text-align: initial;
+  }
+
+  .roadmap__item {
+    flex-flow: row;
+  }
+
+  .roadmap__item-hero-container {
+    width: 50%;
+  }
+
+  .roadmap__item-content {
+    max-width: 50%;
+  }
+
+  .roadmap__item-title {
+    text-align: right;
+  }
+
+  .roadmap__item-copy {
+    text-align: right;
+  }
+}
