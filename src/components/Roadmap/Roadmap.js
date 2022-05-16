@@ -4,7 +4,7 @@ import "./Roadmap.css";
 
 export default function Roadmap() {
   return (
-    <section className="roadmap container">
+    <section className="roadmap container" id="#roadmap">
       <h2 className="roadmap__title">Roadmap</h2>
       <div className="roadmap__items">
         {roadmapContent.map((ri, i) => (
