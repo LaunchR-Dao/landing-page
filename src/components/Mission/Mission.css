@@ -1,0 +1,61 @@
+.mission {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.mission__title {
+  text-align: center;
+  margin-bottom: 60px;
+  font-weight: bold;
+}
+
+.mission__content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.mission__copy {
+  text-align: center;
+  padding: 20px;
+  color: #3c9cd6;
+  margin-bottom: 60px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.mission__hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.mission__hero {
+  max-width: 92%;
+  max-height: 234px;
+}
+
+@media screen and (min-width: 601px) {
+  .mission__title {
+    text-align: initial;
+  }
+
+  .mission__content {
+    flex-flow: row nowrap;
+    width: 100%;
+  }
+
+  .mission__copy {
+    width: 50%;
+    text-align: left;
+  }
+
+  .mission__hero-container {
+    width: 50%;
+    justify-content: flex-start;
+  }
+}
