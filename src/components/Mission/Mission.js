@@ -1,9 +1,20 @@
-import React from 'react'
+import React from "react";
+import missionHero from "../../assets/mission-hero.svg";
+import "./Mission.css";
 
-function Mission() {
+export default function Mission() {
   return (
-    <div>Mission</div>
-  )
+    <section className="mission container">
+      <h2 className="mission__title">Mission</h2>
+      <div className="mission__content">
+        <div className="mission__hero-container">
+          <img className="mission__hero" src={missionHero} alt="" />
+        </div>
+        <p className="mission__copy">
+          To give the average person the opportunity to achieve and create
+          something they can be proud of, in an ever growing community.
+        </p>
+      </div>
+    </section>
+  );
 }
-
-export default Mission

@@ -1,15 +1,15 @@
-.about {
+.mission {
   display: flex;
   flex-flow: column nowrap;
 }
 
-.about__title {
+.mission__title {
+  text-align: center;
   margin-bottom: 60px;
   font-weight: bold;
-  text-align: center;
 }
 
-.about__content {
+.mission__content {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -18,48 +18,44 @@
   margin: 0 auto;
 }
 
-.about__copy {
+.mission__copy {
   text-align: center;
   padding: 20px;
-  order: 2;
-  color: #145da0;
+  color: #3c9cd6;
   margin-bottom: 60px;
   font-weight: bold;
   font-size: 24px;
 }
 
-.about__hero-container {
+.mission__hero-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  order: 1;
   margin-bottom: 60px;
 }
 
-.about__hero {
+.mission__hero {
   max-width: 92%;
   max-height: 234px;
 }
 
 @media screen and (min-width: 601px) {
-  .about__title {
+  .mission__title {
     text-align: initial;
   }
 
-  .about__content {
+  .mission__content {
     flex-flow: row nowrap;
     width: 100%;
   }
 
-  .about__copy {
-    order: 1;
+  .mission__copy {
     width: 50%;
     text-align: left;
-    padding-left: 0;
   }
 
-  .about__hero-container {
+  .mission__hero-container {
     width: 50%;
-    justify-content: flex-end;
+    justify-content: flex-start;
   }
 }
