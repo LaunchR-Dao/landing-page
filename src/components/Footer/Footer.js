@@ -5,7 +5,7 @@ import "./Footer.css";
 export default function Footer() {
   const copyrightYear = new Date().getFullYear();
   return (
-    <footer className="d-flex justify-content-around fixed-bottom footer">
+    <footer className="d-flex justify-content-around footer">
       <section className="footer__logo-container">
         <img src={logo} alt="YouFundR" className="footer__logo" />
       </section>
