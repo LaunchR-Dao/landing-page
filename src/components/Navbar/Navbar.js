@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 
-const Navbar = () => {
+export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light navigation">
       <button
@@ -43,6 +43,4 @@ const Navbar = () => {
       </div>
     </nav>
   );
-};
-
-export default Navbar;
+}

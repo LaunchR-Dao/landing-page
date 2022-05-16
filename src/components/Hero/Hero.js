@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "../../assets/youfundr6.png";
+import logo from "../../assets/logo.svg";
 import "./Hero.css";
 
-const Hero = () => {
+export default function Hero() {
   return (
     <div className="hero">
       <div className="container">
@@ -21,6 +21,4 @@ const Hero = () => {
       </div>
     </div>
   );
-};
-
-export default Hero;
+}
