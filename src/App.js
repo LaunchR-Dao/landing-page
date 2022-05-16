@@ -10,10 +10,12 @@ function App() {
   return (
     <>
       <Header />
-      <Hero />
-      <Mission />
-      <About />
-      <Roadmap />
+      <main className="main">
+        <Hero />
+        <Mission />
+        <About />
+        <Roadmap />
+      </main>
       <Footer />
     </>
   );

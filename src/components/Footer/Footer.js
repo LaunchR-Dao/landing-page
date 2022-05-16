@@ -5,7 +5,7 @@ import "./Footer.css";
 export default function Footer() {
   const copyrightYear = new Date().getFullYear();
   return (
-    <footer className="d-flex justify-content-around fixed-bottom p-3 footer">
+    <footer className="d-flex justify-content-around fixed-bottom footer">
       <section className="footer__logo-container">
         <img src={logo} alt="YouFundR" className="footer__logo" />
       </section>
@@ -14,7 +14,7 @@ export default function Footer() {
       </section>
       <section className="footer__twitter-container">
         <a href="https://twitter.com/YouFundR">
-          <i className="bi bi-twitter"></i>
+          <i className="bi bi-twitter footer__twitter-logo"></i>
         </a>
       </section>
     </footer>
