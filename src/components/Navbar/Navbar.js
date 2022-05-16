@@ -27,11 +27,8 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item navigation__list-item">
-            <a
-              className="nav-link navigation__list-item-anchor"
-              href="#about-us"
-            >
-              About Us
+            <a className="nav-link navigation__list-item-anchor" href="#about">
+              About
             </a>
           </li>
           <li className="nav-item navigation__list-item">
@@ -39,7 +36,7 @@ const Navbar = () => {
               className="nav-link navigation__list-item-anchor"
               href="#roadmap"
             >
-              RoadMap
+              Roadmap
             </a>
           </li>
         </ul>
