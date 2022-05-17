@@ -9,7 +9,7 @@ export default function Header() {
       <a className="header__logo" href="/">
         <img src={logo} alt="" height="50px" />
       </a>
-      <h2 className="header__title">YouFundR</h2>
+      <h1 className="header__title">YouFundR</h1>
       <Navbar />
     </header>
   );

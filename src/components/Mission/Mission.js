@@ -4,7 +4,7 @@ import "./Mission.css";
 
 export default function Mission() {
   return (
-    <section className="mission container">
+    <section className="mission container" id="mission">
       <h2 className="mission__title">Mission</h2>
       <div className="mission__content">
         <div className="mission__hero-container">

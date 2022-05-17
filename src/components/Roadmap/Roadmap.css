@@ -4,7 +4,7 @@
 }
 
 .roadmap__title {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   font-weight: bold;
   text-align: center;
 }
@@ -48,7 +48,7 @@
 
 @media screen and (min-width: 601px) {
   .roadmap__title {
-    text-align: initial;
+    text-align: center;
   }
 
   .roadmap__item {
