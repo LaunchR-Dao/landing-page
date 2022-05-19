@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/landing-page/static/css/main.884fc044.css",
+    "main.js": "/landing-page/static/js/main.a925bd07.js",
+    "static/media/about-hero.svg": "/landing-page/static/media/about-hero.1bda53572760085b357701d716ee85a4.svg",
+    "static/media/logo.svg": "/landing-page/static/media/logo.24018d6ac4e182e8b52b9a394fe65070.svg",
+    "static/media/may-roadmap-hero.svg": "/landing-page/static/media/may-roadmap-hero.84a9cc4a3e9a1e5a21cf.svg",
+    "static/media/mission-hero.svg": "/landing-page/static/media/mission-hero.80ebec1a7f991b3017845290bb828214.svg",
+    "index.html": "/landing-page/index.html",
+    "main.884fc044.css.map": "/landing-page/static/css/main.884fc044.css.map",
+    "main.a925bd07.js.map": "/landing-page/static/js/main.a925bd07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.884fc044.css",
+    "static/js/main.a925bd07.js"
+  ]
+}
